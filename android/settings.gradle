@@ -1,5 +1,4 @@
 rootProject.name = 'baiduDemo'
 
-include ':app'
-include ':baidumapkit'
-project(':baidumapkit').projectDir = new File(rootProject.projectDir, '../node_modules/baidumapkit')
+include ':app', ':react-native-baidumap'
+project(':react-native-baidumap').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-baidumap/android/react-native-baidumap')
