@@ -1,0 +1,5 @@
+rootProject.name = 'baiduDemo'
+
+include ':app'
+include ':baidumapkit'
+project(':baidumapkit').projectDir = new File(rootProject.projectDir, '../node_modules/baidumapkit')
